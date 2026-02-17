@@ -1,4 +1,0 @@
-Get-NetFirewallRule | Where-Object { $_.DisplayName -like "NVIDIA-CEF-*" } | Remove-NetFirewallRule
-Get-NetFirewallRule | Where-Object { $_.DisplayName -like "NVIDIA-OVERLAY-*" } | Remove-NetFirewallRule
-
-Write-Host "nvidia u nigger."
